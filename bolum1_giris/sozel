@@ -1,0 +1,29 @@
+Javascript 
+
+1) JS Nedir ? 
+	- Yuksek-seviyeli, Nesne-Yonelimli, Yorumlayici-tabanli ve dinamik bir programlama dilidir.
+	- Yuksek Seviye : Hafiza yonetimi gibi karmasik gorevleri dusunmemize gerek yoktur.
+	- Nesne Yonelimli (OOP) : Nesne ozelliklerinin (katilim, cok sekillilik vb.) kullanilmasina
+     imkan saglamaktadir.
+	- Yorumlayici : Derleyicide old. gibi tum komutlarin bir kerede 
+     makine koduna cevirmek yerine tek-tek alinip makine koduna cevrilip calistirilmasini saglar.
+     Her bir satiri sirasiyla okur calistirir. Yani 4. satirda hata varsa 
+     once 1,2,3'u okunacak daha sonra 4. satir calisip hata verecek. CTE vermez cunku goremez sadece RTE verir. 
+     Hata ayiklama acisindan zordur. Guvenlik, web tabanli sistemler icin uygundur.
+	- JS, front-end (kullanici-yuzu) gelistirmede en yaygin kullanilan dillerden birisidir.
+	- Front-end Tasarim icin ; "React", "Angular" ve "Vue" gibi JS kutuphaneleri ile interaktif
+     kullanici-yuzu tasarimda kullanilir.
+	- Back-end Tasarim icin ; "NodeJS" kutuphanesi ile sunucu yuzunde web uygulamasi gelistirmede kullanilir.
+
+	- Kutuphane, sadece kaynak kod icerir. Bootstrap, React, Vue birer kutuphanedir.
+	- Framework, icerisinde sadece kaynak kodlar degil bir suru tool barindirir.
+     Icerisinde kutuphaneler olabilir.
+
+	- MEAN : MongoDB, Express.js, Angular, Node.js
+	- MERN : MongoDB, Express.js, React, Node.js 
+	- MEAN ya da MERN'den birini bilen birisi Full-Stack calisabiliyor.
+
+	- Mobil Tasarim ; React Native ve Ionic gibi kutuphaneler ile IOS ve 
+     Android icin mobil uygulama gelistirmede.
+	- Masaustu Tasarim ; Electron kutuphanesi ile Masaustu PC'ler
+     MACOS, Windows, Linux icin uygulama gelistirmede.  
