@@ -27,3 +27,27 @@ Javascript
      Android icin mobil uygulama gelistirmede.
 	- Masaustu Tasarim ; Electron kutuphanesi ile Masaustu PC'ler
      MACOS, Windows, Linux icin uygulama gelistirmede.  
+
+2) JS Veri Tipleri
+    - Degiskenler 2 ana kategoride inceleybiliriz.
+    1) Nesne
+    2) Ilkel Veri Tipleri
+        a) Number : Tamsayi ve virgullu sayilar
+        b) String : Karakter ve yazilar
+        c) Boolean : Mantiksal ifadeler (T,F)
+        d) Undefined : Deger atanmadigi icin tipi belirsiz olan degiskenler
+        e) Null : Deger atanmamis degiskenler
+        f) Symbol : Benzersiz deger saklayan degiskenler (Hash vb.) (ES2015)
+        g) BigInt : Cok buyuk sayilar (ES2020)
+
+    - Onemli : JS, "dinamik" bir dildir. Degiskene atanan deger gore tip otomatik secilir 
+    ve herhangi bir zamanda degistirilebilir.
+
+    - JS'te degisken tanimlamak icin 3 adet anahtar kelime bulunmaktadir.
+        1) var
+        2) const
+        3) let  (Bunlar veri tipi degildir sadece degisken tanimlamak icin kullanilir.)
+    Tanimlama : AnahtarKelime degiskenIsmi = baslangicDegeri;
+    ornek olarak ; const pi = 3.14;   var sayac = 1;    let yas = 33;
+
+    - Degisken tanimlama kurallari 
