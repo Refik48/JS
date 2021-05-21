@@ -74,4 +74,18 @@ Javascript
           - Fonksiyon disinda tanimlandiysa her yerde gecerlidir.(global-scope)
           - Var ile ayni isimle tekrar degisken tanimlamak mumkundur.
           - Gumuzde programcilar global degisken gerekmedikce var ile degisken tanimlamamayi secmektedir.
-          
+
+3) Operatorler :
+     a) Aritmetik Operatorler
+     b) Karsilastirma Operatorleri
+     c) Mantiksal Operatorler
+     d) Atama Operatorleri
+     e) Kosul (Ternary) Operatorleri 
+
+     + Toplama islemi ve String'lerde birlestirme islemini gerceklestirir.
+     - Cikarma islemini gerceklestirir.    
+     * Carpma islemini gerceklestirir.
+     % Mod alma islemini gerceklestirir.  
+     ++ Bir arttirma islemini gerceklestirir.
+     -- Bir azaltma islemini gerceklestirir.
+     ** Us alma islemini gerceklestirir.
