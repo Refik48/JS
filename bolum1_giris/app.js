@@ -59,10 +59,21 @@ console.log(piSayisi);
 //* ============= LET =============
 //? Eğerki değişkenimzin değerinin değişmesi gerekiyor ise const kullanamayız. 
 //? Bunun yerine LET kullanabiliriz.
-//! LET Block-scope bir değişkendir.
+//! LET Block-scope bir değişkendir. Block-Scope : Sadece tanimli oldugu alanda gecerlidir.
+//! VAR ise global-scope bir tanimlamadir. Her yerde gecerlidir.  
 
 let fiyat;
-console.log(fiyat);
+console.log(fiyat); //? Degisken tanimladik ama atama yapmadik o yuzden undefined gozukuyor.
 fiyat = 5.5;
 console.log(fiyat);
 console.log(typeof fiyat);
+
+let isim1 = "Mustafa"; //? Cift Tirnak
+let isim2 = 'Ahmet'; //? Tek tirnak
+let isim3 = `Alican`; //? Backthick
+console.log(isim3);
+
+const dil = null;
+console.log(dil);
+console.log(typeof dil); //? JS'de Null bir object'tir.
+

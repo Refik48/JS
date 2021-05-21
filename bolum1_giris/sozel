@@ -50,4 +50,28 @@ Javascript
     Tanimlama : AnahtarKelime degiskenIsmi = baslangicDegeri;
     ornek olarak ; const pi = 3.14;   var sayac = 1;    let yas = 33;
 
-    
+     a) Const :
+          - Sadece baslangic atamasi ile deger atanabilen sonrasinda degeri degistirilemeten degisken tanimlamasidir.
+          - Baslangic degeri olmazsa hata verir.
+          - Javadaki FINAL tanimlamasina benzer (Read-Only)
+          - Sadece tanimlandigi blok icerisinde gecerlidir. Diger yerlerden erisilemez.(Block-Scoped)
+          - Avantaji, tanimlama disinda deger degistirilemedigi icin guvenlidir. Hata ile deger atilamaz.
+          - Dezavantaji, degeri tekrar tekrar degisecek verileri saklamak icin kullanilamaz.
+          - Eger mumkumse yani bir degiskenin degeri bir daha degismeyecekse guvenlik icin const kullanmakta fayda var.
+          - ISTISNA oldugu yer "Non-Primitive"lerdir. Non-Primitive bir deger kullaniyorsak (Arrays,Objects...) 
+          o zaman const degeri degistirebiliyoruz.  
+
+     b) Let :
+          - Const'dan farki, istenildigi zaman degerinin degistirilebilmesidir.
+          - Const gibi tanimlandigi block icerisinde gecerlidir. Baska yerlerden erisilemez.(Block-Scoped)
+          - Bir degisken ayni isimle tekrar tanimlanamaz.
+          - Const kullanamadigimiz durumlarda (degiskenin degeri degisecekse) let kullanmaliyiz.
+
+     c) Var :
+          - Var deyimi ile tanimlanan degiskene, let'de old. gibi tekrardan deger atamak mumkundur.
+          - Var'in let'ten farki, global-scope veya fonksiyon-scope (block-scope) olmasidir.
+          - Eger bir fonksiyon icerisinde tanimlandiysa sadece o fonksiyonda gecerlidir.(fonksiyon-scope = block-scope)
+          - Fonksiyon disinda tanimlandiysa her yerde gecerlidir.(global-scope)
+          - Var ile ayni isimle tekrar degisken tanimlamak mumkundur.
+          - Gumuzde programcilar global degisken gerekmedikce var ile degisken tanimlamamayi secmektedir.
+          
