@@ -1,4 +1,4 @@
-alert("BUNU ONAYLAMADAN SAYFANIN HIC BIR KISMINI GOREMEZ VE INCELEYEMEZSIN");
+// alert("BUNU ONAYLAMADAN SAYFANIN HIC BIR KISMINI GOREMEZ VE INCELEYEMEZSIN"); // SIMDILIK KAPATIYORUM.
 //? Alert yazdigimizda bu alert'i onaylamadan sayfaya erisemiyoruz. 
 //? En basa koyduk cunku once bu onaylansin daha sonra sayfa goruntulenebilsin diye. (Okuma sirasi)
 
@@ -55,3 +55,14 @@ console.log(piSayisi);
 //! piSayisi = 3; 
 //? Error kisminda hata verdi Const degerine atama yapilmis diyor. Yeniden atama yapilamaz.
 //! console.log(piSayisi);
+
+//* ============= LET =============
+//? Eğerki değişkenimzin değerinin değişmesi gerekiyor ise const kullanamayız. 
+//? Bunun yerine LET kullanabiliriz.
+//! LET Block-scope bir değişkendir.
+
+let fiyat;
+console.log(fiyat);
+fiyat = 5.5;
+console.log(fiyat);
+console.log(typeof fiyat);

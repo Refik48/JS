@@ -50,4 +50,4 @@ Javascript
     Tanimlama : AnahtarKelime degiskenIsmi = baslangicDegeri;
     ornek olarak ; const pi = 3.14;   var sayac = 1;    let yas = 33;
 
-    - Degisken tanimlama kurallari 
+    
