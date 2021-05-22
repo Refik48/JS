@@ -89,3 +89,6 @@ Javascript
      ++ Bir arttirma islemini gerceklestirir.
      -- Bir azaltma islemini gerceklestirir.
      ** Us alma islemini gerceklestirir.
+
+     0, null, undefined, NaN, ve ” ” Javascript tarafından false olarak kabul edilir.
+     Diğer sayılar Boolean’a  çevrildiğinde true olarak kabul edilir.

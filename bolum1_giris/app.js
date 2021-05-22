@@ -214,3 +214,7 @@ const result = //? Veya bunu bir degere atayabilir ve onu yazdirabiliriz.
   age >= 18 ? `${name1} ehliyet alabilir` : `${name1} ehliyet alamaz`;
 
 console.log(result);
+
+const sayi4 = 41;
+console.log(String(sayi4), sayi4);
+//? sayi4 degismez number kaliyor. String(sayi4) yazan yere kopyasi gider, asli degil.
