@@ -55,3 +55,41 @@ switch (gunNo) {
      break;
  }
  console.log(gunAdi);
+
+ //************************ TERNARY ****************************
+// ÖRNEK
+const maas = prompt("Maasinizi giriniz:");
+const calismaSuresi = prompt("Calisma suresini giriniz:");
+const zamliMaas =
+  calismaSuresi > 10 ? maas * 1.5 : calismaSuresi > 5 ? maas * 1.2 : maas * 1.1;
+console.log(zamliMaas);
+
+//! ÖRNEK
+const borç = 0;
+const maaş = 3000;
+console.log(!borç && maaş > 2825.9 ? "Kredi Alabilir 🤑" : "Kredi Alamaz 🥺");
+
+// * =======================================================
+// *                     DONGULER
+// * =======================================================
+
+//************************ FOR ****************************
+
+//! ORNEK
+const sayi = prompt("Dongu miktarini giriniz:");
+for (let i = 1; i <= sayi; i++) {
+  console.log(`${i}-Mehmet`);
+}
+
+//! ORNEK: Asal sayi tespiti
+const number = 10;
+
+let asal = true;
+for (let i = 2; i < number; i++) {
+  if (number % i == 0) {
+    asal = false;
+    break;
+  }
+}
+const sonuc = asal ? "ASAL" : "ASAL DEGIL";
+console.log(sonuc);
